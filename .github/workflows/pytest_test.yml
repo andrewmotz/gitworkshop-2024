@@ -1,0 +1,21 @@
+name: Automated testing with pytest
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  python-tests:
+    name: Pytest Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python Setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Run PyTest Tests
+        run: |
+          pip install pytest
+          pytest
