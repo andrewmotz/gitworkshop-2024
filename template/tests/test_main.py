@@ -18,4 +18,3 @@ def test_first_ten_even_integers():
 @pytest.mark.skipif(not hasattr(ws, test_function), reason=f"{test_function} is not define in git_workshop.py")
 def test_first_2_even_integers():
     assert ws.first_n_even_integers(2) == [2,4]
-    
