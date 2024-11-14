@@ -7,4 +7,4 @@ Git Workshop for TRUSUCS club
 1. Install vscode [here](https://code.visualstudio.com/download)
 
 ## Slides
-INSERT LINK HERE
+[Click link here](https://docs.google.com/presentation/d/1AYO-mRzvOjumAGcQk80a2RxZaAh4XEnZNPdLAdXrIX4/edit?usp=sharing)
