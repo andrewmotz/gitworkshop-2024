@@ -4,10 +4,10 @@ from .. import git_workshop as ws
 import pytest
 
 # current_year tests
-test_function="current_year"
+test_function="current_year_workshop"
 @pytest.mark.skipif(not hasattr(ws, test_function), reason=f"{test_function} is not defined in git_workshop.py")
-def test_current_year():
-    assert ws.current_year() == 2024
+def test_current_year_workshop():
+    assert ws.current_year_workshop() == 2024
 
 # first_n_even_integers tests
 test_function="first_n_even_integers"
