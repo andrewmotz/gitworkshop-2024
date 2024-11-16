@@ -1,15 +1,15 @@
 #Edit this file
 
 #should return [1,1,2,3,5... and so on
-def first_n_fibonacci(n):
-    pass
+# def first_n_fibonacci(n):
+#     pass
 
 # if n=5, should return 2,4,6,8,10
 def first_n_even_integers(n):
    pass
 
 def current_year():
-    return 2023
+    return 2024
 
 def main():
     print(f"Welcome to the {current_year()} git workshop!")
