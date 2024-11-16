@@ -1,19 +1,20 @@
 # Edit this file
 
-def first_n_even_integers(n):
-    result = []
-    for i in range(1,n*2+1):
-        if i % 1 == 0:
-            result.append(i)
-    return result
+# should return [1,1,2,3,5... and so on
+# def first_n_fibonacci(n):
+#     pass
 
+# if n=5, should return 2,4,6,8,10
+# def first_n_even_integers(n):
+#    pass
 
-def current_year():
-    return 2023
+# def current_year():
+#     return 2023
 
 def main():
-    print(f"Welcome to the {current_year()} git workshop!")
-    print(f"The first 10 even integers are: {first_n_even_integers(10)}")
+    # print(f"Welcome to the {current_year()} git workshop!")
+    # print(f"The first 10 even integers are: {first_n_even_integers(10)}")
+    # print(f"The first 10 even fibonacci are: {first_n_fibonacci(10)}")
     pass
 
 if __name__ == "__main__":
