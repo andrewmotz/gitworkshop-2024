@@ -9,7 +9,7 @@
 #    pass
 
 def current_year():
-    return 2023+1
+    return 2024
 
 def main():
     print(f"Welcome to the {current_year()} git workshop!")
